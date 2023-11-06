@@ -32,19 +32,19 @@ The RBF of hidden neuron as gaussian function
 
 ## ALGORIHM:
 ## Step 1 : 
-    Initialize the input patterns for XOR Gate    
+Initialize the input patterns for XOR Gate    
 ## Step 2: 
-    Initialize the desired output of the XOR Gate 
+Initialize the desired output of the XOR Gate 
 ## Step 3: 
-    Define the function for RBF and function for prediction. 
+Define the function for RBF and function for prediction. 
 ## Step 4: 
-    Plot the graphs with inputs 
+Plot the graphs with inputs 
 # Step 5:
-    Find the weights 
+Find the weights 
 # Step 6: 
-    Plot the graph with transformed inputs using RBF 
+Plot the graph with transformed inputs using RBF 
 # Step 7 :
-    Test for the XOR patterns.
+Test for the XOR patterns.
 
 ## PROGRAM:
 ```
@@ -120,11 +120,15 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), W
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), W)}")
 ```
 ## OUTPUT :
-    /**PLOTS of Output in hidden space**/
-    /Classification results
+## Linear Inseparable Data:
+![image](https://github.com/subalakshmivenkat/Experiment-5-Implementation-of-XOR-using-RBF/assets/119393477/4637e822-8998-4cf9-a343-cb0dd1f1d71b)
+## Transformed Inputs:
+![image](https://github.com/subalakshmivenkat/Experiment-5-Implementation-of-XOR-using-RBF/assets/119393477/41604a1c-d83e-415c-a4a1-244929e24a30)
+## Prediction:
+![image](https://github.com/subalakshmivenkat/Experiment-5-Implementation-of-XOR-using-RBF/assets/119393477/f8017fbf-a044-4421-91b8-89e743a62757)
 
 ## RESULT:
-
+Thus XOR is successfully implemeted using RBF.
 
 
 
